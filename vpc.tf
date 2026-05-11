@@ -9,7 +9,7 @@ resource "aws_vpc" "main_vpc" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "first-script-modify"
+    Name = "first-script-CICD"
   }
 }
 
